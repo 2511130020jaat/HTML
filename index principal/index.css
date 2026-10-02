@@ -1,0 +1,69 @@
+h1 {
+  font-size: 60px;
+  position: relative;
+  top: 90px;
+  margin: 0%;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  position: relative;
+  top: 70px;
+  color: rgb(204, 208, 212);
+}
+
+h2:hover {
+  color: rgb(255, 247, 9);
+}
+
+body {
+  margin: 0%;
+  background-color: black;
+}
+.fondoimagen {
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  position: fixed;
+  opacity: 0.3;
+}
+
+div {
+  width: 60%;
+  margin: 12% auto;
+  padding: 20px;
+  background-color: rgba(30, 41, 51, 0.5);
+}
+div:hover {
+  background-color: rgba(20, 28, 35, 0.7);
+}
+
+p {
+  color: black;
+  text-align: center;
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 90px;
+  list-style: none;
+}
+
+ul a {
+  color: rgb(181, 181, 189);
+}
+ul a:hover {
+  color: rgb(234, 255, 7);
+}
+
+@media (max-width: 600px) {
+  form {
+    width: 90%;
+  }
+}
+
+p {
+  color: beige;
+}

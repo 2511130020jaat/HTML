@@ -1,0 +1,16 @@
+ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 500px;
+  list-style: none;
+}
+
+form {
+  text-align: center;
+}
+
+input {
+  display: block;
+  margin-bottom: 30px;
+  margin: auto;
+}

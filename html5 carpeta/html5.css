@@ -1,0 +1,98 @@
+body {
+  background-color: black;
+}
+
+#titulo {
+  color: rgb(255, 255, 255);
+  text-align: left;
+
+  margin-left: 30px;
+  margin-top: 60px;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 600px;
+  list-style: none;
+}
+
+#ingsistemas {
+  position: absolute;
+  z-index: -1;
+  opacity: 0.5;
+  top: 0;
+  width: 99.4%;
+  mask-image: linear-gradient(to bottom, black, transparent);
+}
+
+#css {
+  position: absolute;
+  z-index: -1;
+  margin-top: 33%;
+  margin-left: 51%;
+  width: 25%;
+}
+
+#python {
+  position: absolute;
+  z-index: -1;
+  margin-top: 46%;
+  margin-left: 15%;
+}
+
+li a {
+  color: beige;
+}
+li a:hover {
+  color: rgb(242, 255, 4);
+}
+#bloquesobremi {
+  margin: auto;
+  margin-top: 3%;
+  background-color: rgba(12, 34, 46, 0.7);
+  width: 900px; /* Ancho del cuadro */
+  padding: 40px; /* Espacio entre texto y borde */
+}
+#sobremi {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(0, 255, 213);
+}
+p {
+  color: rgb(253, 253, 253);
+}
+
+section {
+  display: inline-block;
+  vertical-align: top;
+}
+
+#bloqueuno {
+  padding: 20px;
+  width: 400px;
+  margin-left: 260px;
+  text-align: center;
+  color: rgb(6, 255, 247);
+}
+
+#bloquedos {
+  padding: 20px;
+  width: 400px;
+  margin-left: 740px;
+  text-align: center;
+  color: rgb(6, 255, 247);
+}
+
+footer {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+a {
+  color: rgb(234, 255, 9);
+}
+a:hover {
+  color: cyan;
+}
