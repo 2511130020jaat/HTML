@@ -53,12 +53,11 @@
     </style>
     <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
     <script>
-      // Inicializar EmailJS con tu Public Key
       (function () {
         emailjs.init("n4FLEbvSISY6wv72b");
       })();
       function enviarCorreo(e) {
-        e.preventDefault(); // evitar recarga del form
+        e.preventDefault();
         emailjs
           .send("service_jbrk5yw", "template_go67nzh", {
             name: document.getElementById("nombre").value,
