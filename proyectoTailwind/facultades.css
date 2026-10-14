@@ -1,0 +1,427 @@
+:root {
+  --primary: #0f4c81;
+  --primary-dark: #082f4b;
+  --accent: #e6a33c;
+  --soft-bg: #f5f7fb;
+  --text: #1f2937;
+  --white: #ffffff;
+  --shadow: rgba(15, 76, 129, 0.18);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: var(--soft-bg);
+  color: var(--text);
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.site-header {
+  background: linear-gradient(90deg, var(--primary-dark), var(--primary));
+  color: var(--white);
+  box-shadow: 0 8px 20px var(--shadow);
+}
+
+.topbar {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.university-header-name {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem 0.3rem;
+}
+
+.university-header-name h1 {
+  margin: 0;
+  color: #f4f7ff;
+  font-size: clamp(2.1rem, 3vw, 4rem);
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  line-height: 1.1;
+}
+
+.logo-wrap {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+}
+
+.logo-mark {
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  box-shadow: 0 6px 18px rgba(230, 163, 60, 0.45);
+  background: #fff;
+  padding: 2px;
+}
+
+.logo-copy {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.2;
+}
+
+.logo-title {
+  font-size: 1.55rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.logo-subtitle {
+  font-size: 0.75rem;
+  opacity: 0.8;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.main-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.2rem;
+  width: 100%;
+  background: linear-gradient(90deg, #e7b93a, #e0b024);
+  padding: 0.8rem 1.2rem;
+  min-height: 62px;
+}
+
+.main-nav a {
+  color: #0c2b6a;
+  text-decoration: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 0.55rem 0.9rem;
+  transition: 0.2s ease;
+  font-size: 1.05rem;
+}
+
+.main-nav a:hover {
+  opacity: 0.8;
+}
+
+.main-nav .brand-link {
+  color: #0d2e6d;
+  margin-right: 0.5rem;
+}
+
+.hero-section,
+.faculty-banner-section {
+  padding: 2rem 1rem 0;
+}
+
+.carousel {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 28px;
+  box-shadow: 0 18px 40px rgba(15, 76, 129, 0.15);
+}
+
+.faculty-carousel {
+  max-width: 980px;
+}
+
+.slides {
+  display: flex;
+  width: 300%;
+  animation: carousel 18s infinite ease-in-out;
+}
+
+.slide {
+  position: relative;
+  flex: 0 0 33.3333%;
+  min-height: 520px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: end;
+}
+
+.faculty-carousel .slide {
+  min-height: 300px;
+}
+
+.slide-one {
+  background-image:
+    linear-gradient(135deg, rgba(8, 47, 75, 0.52), rgba(15, 76, 129, 0.3)),
+    url("./universidad/fototeatro.png");
+}
+
+.slide-two {
+  background-image:
+    linear-gradient(135deg, rgba(12, 63, 88, 0.52), rgba(8, 47, 75, 0.2)),
+    url("./universidad/casacultura.png");
+}
+
+.slide-three {
+  background-image:
+    linear-gradient(135deg, rgba(8, 47, 75, 0.5), rgba(15, 76, 129, 0.25)),
+    url("./universidad/undc.png");
+}
+
+.slide-overlay {
+  padding: 2rem 2.5rem 2.2rem;
+  max-width: 720px;
+  color: var(--white);
+}
+
+.eyebrow {
+  margin: 0 0 0.5rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: #e8f1ff;
+}
+
+.slide-overlay h1,
+.slide-overlay h2,
+.section-heading h2 {
+  margin: 0;
+  font-weight: 800;
+  line-height: 1.1;
+}
+
+.slide-overlay h1,
+.slide-overlay h2 {
+  font-size: clamp(2rem, 3vw, 3.3rem);
+}
+
+.slide-overlay p:last-child {
+  margin-top: 0.85rem;
+  line-height: 1.7;
+  max-width: 520px;
+  font-size: 1.05rem;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.content-section,
+.faculty-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4rem 1.25rem 2rem;
+}
+
+.section-heading {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.section-heading .eyebrow {
+  color: var(--primary);
+}
+
+.section-heading h2 {
+  font-size: clamp(2rem, 2.6vw, 2.8rem);
+  color: var(--primary-dark);
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  gap: 2rem;
+  align-items: center;
+}
+
+.text-column {
+  background: rgba(255, 255, 255, 0.75);
+  border-radius: 24px;
+  padding: 2rem;
+  box-shadow: 0 15px 30px rgba(15, 76, 129, 0.08);
+}
+
+.text-column p {
+  margin: 0 0 1rem;
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: var(--text);
+}
+
+.text-column p:last-child {
+  margin-bottom: 0;
+}
+
+.stats-panel {
+  display: grid;
+  gap: 1rem;
+}
+
+.stat-box {
+  border-radius: 20px;
+  padding: 1.5rem 1.2rem;
+  box-shadow: 0 12px 28px rgba(15, 76, 129, 0.06);
+  border: 1px solid rgba(15, 76, 129, 0.08);
+}
+
+.box-yellow {
+  background: linear-gradient(135deg, #f6d24a, #f2c62d);
+}
+
+.box-blue {
+  background: linear-gradient(135deg, #1d4e89, #0d2d5d);
+  color: white;
+}
+
+.box-blue strong,
+.box-blue span {
+  color: white;
+}
+
+.box-white {
+  background: linear-gradient(135deg, #ffffff, #eef4ff);
+}
+
+.stat-box strong {
+  display: block;
+  font-size: 2rem;
+  color: var(--primary-dark);
+}
+
+.stat-box span {
+  color: var(--text);
+  font-weight: 700;
+}
+
+.faculty-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 2rem;
+}
+
+.faculty-card {
+  background: var(--white);
+  border-radius: 22px;
+  overflow: hidden;
+  box-shadow: 0 18px 35px rgba(15, 76, 129, 0.08);
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.faculty-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 24px 38px rgba(15, 76, 129, 0.12);
+}
+
+.faculty-card img {
+  width: 100%;
+  height: 260px;
+  object-fit: contain;
+  padding: 1rem 1rem 0;
+  background: linear-gradient(180deg, #ffffff, #f3f7ff);
+}
+
+.card-body {
+  padding: 1.4rem 1.2rem 1.6rem;
+}
+
+.faculty-tag {
+  display: inline-block;
+  margin-bottom: 0.7rem;
+  color: var(--primary);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.card-body h3 {
+  margin: 0 0 0.75rem;
+  color: var(--primary-dark);
+  font-size: 1.45rem;
+}
+
+.card-body p {
+  margin: 0;
+  line-height: 1.7;
+  color: #4b5563;
+}
+
+.site-footer {
+  padding: 2rem 1rem 3rem;
+  text-align: center;
+  color: var(--primary-dark);
+  font-weight: 600;
+}
+
+@keyframes carousel {
+  0%,
+  25% {
+    transform: translateX(0%);
+  }
+  33%,
+  58% {
+    transform: translateX(-33.33%);
+  }
+  66%,
+  90% {
+    transform: translateX(-66.66%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+@media (max-width: 900px) {
+  .topbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .main-nav {
+    justify-content: flex-start;
+  }
+
+  .info-grid,
+  .faculty-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .main-nav {
+    gap: 0.5rem;
+  }
+
+  .main-nav a {
+    padding: 0.35rem 0.55rem;
+    font-size: 0.88rem;
+  }
+
+  .slide {
+    min-height: 420px;
+  }
+
+  .slide-overlay {
+    padding: 1.3rem;
+  }
+
+  .info-grid,
+  .faculty-grid {
+    grid-template-columns: 1fr;
+  }
+}

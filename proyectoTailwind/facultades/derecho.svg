@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-label="Escuela Profesional de Derecho">
+  <defs>
+    <linearGradient id="blueGrad" x1="0" x2="1">
+      <stop offset="0%" stop-color="#1b4e8d"/>
+      <stop offset="100%" stop-color="#0d2d5d"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0" x2="1">
+      <stop offset="0%" stop-color="#f7df9a"/>
+      <stop offset="50%" stop-color="#d9b14b"/>
+      <stop offset="100%" stop-color="#f0d58f"/>
+    </linearGradient>
+  </defs>
+
+  <circle cx="300" cy="300" r="272" fill="#d52d2d"/>
+  <circle cx="300" cy="300" r="246" fill="url(#blueGrad)" stroke="#d52d2d" stroke-width="16"/>
+
+  <circle cx="300" cy="300" r="220" fill="none" stroke="#dcae3d" stroke-width="9" opacity="0.7"/>
+
+  <g font-family="Georgia, serif" fill="url(#goldGrad)" text-anchor="middle">
+    <text x="300" y="110" font-size="26" letter-spacing="1.5">UNIVERSIDAD NACIONAL DE CAÑETE</text>
+  </g>
+
+  <g transform="translate(300 300)">
+    <path d="M0 -140 C78 -105 95 -50 95 15 C95 72 69 110 0 148 C-69 110 -95 72 -95 15 C-95 -50 -78 -105 0 -140 Z" fill="url(#goldGrad)"/>
+    <path d="M0 -108 C58 -78 63 -30 63 0 C63 42 42 74 0 106 C-42 74 -63 42 -63 0 C-63 -30 -58 -78 0 -108 Z" fill="none" stroke="#9f7428" stroke-width="3"/>
+
+    <path d="M0 -28 L0 142" stroke="#9f7428" stroke-width="7"/>
+    <path d="M-95 10 L95 10" stroke="#9f7428" stroke-width="6"/>
+    <path d="M-62 46 L62 46" stroke="#9f7428" stroke-width="5"/>
+    <path d="M-136 120 L-58 48" stroke="#9f7428" stroke-width="7"/>
+    <path d="M136 120 L58 48" stroke="#9f7428" stroke-width="7"/>
+
+    <g stroke="#9f7428" stroke-width="6" fill="none">
+      <path d="M-80 170 L80 170"/>
+      <path d="M-80 170 L-145 235"/>
+      <path d="M80 170 L145 235"/>
+    </g>
+
+    <g transform="translate(-160 210)">
+      <path d="M0 0 L30 0 L30 55 L0 55 Z" fill="url(#goldGrad)" opacity="0.9"/>
+      <path d="M-8 0 L38 0" stroke="#9f7428" stroke-width="4"/>
+      <path d="M-8 55 L38 55" stroke="#9f7428" stroke-width="4"/>
+    </g>
+
+    <g transform="translate(160 210)">
+      <path d="M0 0 L-30 0 L-30 55 L0 55 Z" fill="url(#goldGrad)" opacity="0.9"/>
+      <path d="M8 0 L-38 0" stroke="#9f7428" stroke-width="4"/>
+      <path d="M8 55 L-38 55" stroke="#9f7428" stroke-width="4"/>
+    </g>
+
+    <g transform="translate(0 160)">
+      <path d="M-78 0 L78 0" stroke="#9f7428" stroke-width="7"/>
+      <path d="M-58 0 L-18 54" stroke="#9f7428" stroke-width="7"/>
+      <path d="M58 0 L18 54" stroke="#9f7428" stroke-width="7"/>
+    </g>
+
+    <path d="M-200 -40 L-120 -40 L-150 100 L-200 -40 Z" fill="#0b9d61" opacity="0.95"/>
+    <path d="M200 -40 L120 -40 L150 100 L200 -40 Z" fill="#0b9d61" opacity="0.95"/>
+    <path d="M-146 120 L-90 120 L-118 210 L-146 120 Z" fill="#0b9d61" opacity="0.95"/>
+    <path d="M146 120 L90 120 L118 210 L146 120 Z" fill="#0b9d61" opacity="0.95"/>
+  </g>
+
+  <g font-family="Georgia, serif" fill="url(#goldGrad)" text-anchor="middle">
+    <text x="300" y="470" font-size="26" letter-spacing="2">ESCUELA PROFESIONAL DE DERECHO</text>
+  </g>
+</svg>
