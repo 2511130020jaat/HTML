@@ -13,9 +13,8 @@
         e.preventDefault(); // evitar recarga del form
         emailjs
           .send("service_jbrk5yw", "template_go67nzh", {
-            /*emailjs.send("service_xxx", "template_xxx", {*/
-            name: document.getElementById("nombre").value, // Coincide con {{name}}
-            email: document.getElementById("email").value, // Coincide con {{email}}
+            name: document.getElementById("nombre").value,
+            email: document.getElementById("email").value,
             message: document.getElementById("mensaje").value,
           })
           .then((res) => {
